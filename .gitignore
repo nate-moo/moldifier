@@ -1,3 +1,6 @@
+# get rid of venv garbage
+moldifier
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
