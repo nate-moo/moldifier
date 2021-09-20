@@ -1,6 +1,8 @@
 # get rid of venv garbage
 moldifier
 
+*.mp4
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
