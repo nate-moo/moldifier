@@ -24,9 +24,6 @@ class mainWindow(QtWidgets.QMainWindow):
         self.ui.pushButton_2.clicked.connect(self.btnPushButton2)
         # self.ui.actionSize_Targeter.clicked.connect(self.)
         self.filePath = ""
-    
-    # def btnSpawnNewWindow(self):
-    #     return
 
     def btnPushButton(self):
         print("hello")
