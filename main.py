@@ -35,6 +35,12 @@ class Ui_MainWindow(object):
         self.slider.setMaximum(20)
         self.slider.valueChanged.connect(self.setText)
 
+        self.img = QtWidgets.QCheckBox(self.centralwidget)
+        self.img.setGeometry(QtCore.QRect(100, 14, 15, 15))
+        self.imgLabel = QtWidgets.QLabel(self.centralwidget)
+        self.imgLabel.setGeometry(QtCore.QRect(115, 11, 40, 21))
+
+
         MainWindow.setCentralWidget(self.centralwidget)
         # self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         # self.pushButton_3.setGeometry(QtCore.QRect(90, 150, 75, 23))
@@ -56,6 +62,7 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(_translate('MainWindow', 'Compress'))
         self.label1.setText(_translate("MainWindow", "Iterations"))
         self.label.setText(_translate('MainWindow', 'Filename'))
+        self.imgLabel.setText(_translate("MainWindow", "Image"))
 
 
 
